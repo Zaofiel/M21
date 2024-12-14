@@ -33,6 +33,6 @@ def attack_pok(message):
             bot.send_message(message.chat.id, "Сражаться можно только с покемонами")
     else:
             bot.send_message(message.chat.id, "Чтобы атаковать, нужно ответить на сообщения того, кого хочешь атаковать")
-    
+
 bot.infinity_polling(none_stop=True)
 
